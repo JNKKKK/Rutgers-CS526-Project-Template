@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="template-2">Template 2</h1>
+<h2 id="whats-in-the-template">What’s in the template</h2>
+<ul>
+<li>Frontend of the mini-portal</li>
+<li>A Student list page which will fetch the list of students from the databases and display in the frontend</li>
+</ul>
+<h2 id="prerequisite">Prerequisite</h2>
+<p>Create the <code>student</code> Table</p>
+<pre><code>CREATE TABLE student (  
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,  
+firstname VARCHAR(30) NOT NULL,  
+lastname VARCHAR(30) NOT NULL,  
+email VARCHAR(50),
+netid VARCHAR(50)
+);
+</code></pre>
+<p>Insert some mocking data</p>
+<pre><code>INSERT  INTO  student (firstname , lastname , email , netid)  
+VALUES ("Eric","TEST","TEST@TEST.com","tt1");
+INSERT  INTO  student (firstname , lastname , email , netid)  
+VALUES ("David","TEST","TEST@TEST.com","tt2");
+INSERT  INTO  student (firstname , lastname , email , netid)  
+VALUES ("Alice","TEST","TEST@TEST.com","tt3");
+INSERT  INTO  student (firstname , lastname , email , netid)  
+VALUES ("Bob","TEST","TEST@TEST.com","tt4");
+INSERT  INTO  student (firstname , lastname , email , netid)  
+VALUES ("Cell","TEST","TEST@TEST.com","tt5");
+INSERT  INTO  student (firstname , lastname , email , netid)  
+VALUES ("Rub","TEST","TEST@TEST.com","tt6");
+</code></pre>
+<h2 id="run">Run</h2>
+<pre><code>cd template2
+mvn clean
+mvn tomcat:run
+</code></pre>
+</div>
+</body>
+
+</html>
