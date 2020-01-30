@@ -33,6 +33,12 @@ For Mac user
 [https://forums.centos.org/viewtopic.php?t=3876](https://forums.centos.org/viewtopic.php?t=3876)
 
 
+**Questions? Looking for help?**
+
+If you encounter any problem when setting up these template, please post your questions or problems on the [Issue](https://github.com/JNKKKK/Rutgers-CS526-Project-Template/issues) tab of this repository.
+
+You can also help other students by answering their questions on [Issue](https://github.com/JNKKKK/Rutgers-CS526-Project-Template/issues). Good Luck! 😀
+
 ---
 
 Author: Enkai Ji
