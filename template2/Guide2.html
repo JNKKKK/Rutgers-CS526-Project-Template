@@ -18,63 +18,116 @@
 <li>
 <p>A Student list page which will fetch the list of students from the databases and display in the frontend</p>
 </li>
+<li>
+<p>“Add new student” functionality</p>
+</li>
 </ul>
 <h2 id="prerequisite">Prerequisite</h2>
 <p>Create the <code>student</code> Table</p>
 <pre><code>
+  
+
 CREATE TABLE student (
+
+  
 
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 
+  
+
 firstname VARCHAR(30) NOT NULL,
+
+  
 
 lastname VARCHAR(30) NOT NULL,
 
+  
+
 email VARCHAR(50),
+
+  
 
 netid VARCHAR(50)
 
+  
+
 );
+
+  
 
 </code></pre>
 <p>Insert some mocking data</p>
 <pre><code>
+  
+
 INSERT INTO student (firstname , lastname , email , netid)
+
+  
 
 VALUES ("Eric","TEST","TEST@TEST.com","tt1");
 
+  
+
 INSERT INTO student (firstname , lastname , email , netid)
+
+  
 
 VALUES ("David","TEST","TEST@TEST.com","tt2");
 
+  
+
 INSERT INTO student (firstname , lastname , email , netid)
+
+  
 
 VALUES ("Alice","TEST","TEST@TEST.com","tt3");
 
+  
+
 INSERT INTO student (firstname , lastname , email , netid)
+
+  
 
 VALUES ("Bob","TEST","TEST@TEST.com","tt4");
 
+  
+
 INSERT INTO student (firstname , lastname , email , netid)
+
+  
 
 VALUES ("Cell","TEST","TEST@TEST.com","tt5");
 
+  
+
 INSERT INTO student (firstname , lastname , email , netid)
 
+  
+
 VALUES ("Rub","TEST","TEST@TEST.com","tt6");
+
+  
 
 </code></pre>
 <h2 id="run">Run</h2>
 <pre><code>
+  
+
 cd template2
+
+  
 
 mvn clean
 
+  
+
 mvn tomcat:run
 
+  
+
 </code></pre>
-<p><img src="https://i.loli.net/2020/01/29/7gbnpDmu43RTeh6.png" alt="Captur1e.PNG"><br>
-<img src="https://i.loli.net/2020/01/29/3bIiqW5HvdcwnTD.png" alt="Cap2ture.PNG"></p>
+<p><img src="https://i.loli.net/2020/01/29/7gbnpDmu43RTeh6.png" alt="Captur1e.PNG"></p>
+<p><img src="https://i.loli.net/2020/01/29/3bIiqW5HvdcwnTD.png" alt="Cap2ture.PNG"></p>
 <p>Author: Enkai Ji</p>
 </div>
 </body>

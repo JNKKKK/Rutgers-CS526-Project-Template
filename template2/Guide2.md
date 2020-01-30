@@ -7,7 +7,7 @@
 
 - A Student list page which will fetch the list of students from the databases and display in the frontend
 
-  
+- "Add new student" functionality
 
 ## Prerequisite
 
