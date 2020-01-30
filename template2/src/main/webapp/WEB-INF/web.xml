@@ -782,4 +782,12 @@ standard deployment descriptor.
     <servlet-name>Display</servlet-name>
     <url-pattern>/display</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>addTask</servlet-name>
+    <servlet-class>inside.AddTask</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addTask</servlet-name>
+    <url-pattern>/inside/addTask</url-pattern>
+  </servlet-mapping>
 </web-app>
